@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Josefin+Sans&family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./Images/Favicon_Web.png" type="image/x-icon">
+
+    <title>Gahinath Madake</title>
+
+    <style>
+
+        /* Animation for Background particles start */
+        .container{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .bubbles{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            z-index: -1;
+        }
+
+        .bubbles span{
+            z-index: 0;
+            width: 30px;
+            height: 30px;
+            background: white;
+            margin: 0 4px;
+            border-radius: 50%;
+            animation: animate_bubbles 20s linear infinite;
+            animation-duration: calc(125s/var(--i));
+            position: relative;
+        }
+        .bubbles span:nth-child(even){
+            background: rgb(215, 99, 99);
+        }
+        @keyframes animate_bubbles{
+            0%{
+                top: calc(100% + 4vw);
+                transform: scale(0.1);
+            }
+            100%{
+                transform: scale(0.1);
+                top: -100px;
+            }
+        }
+     /* Animation for Background particles ends */
+     /* Responsiveness */
+     @media screen and (max-width: 500px){
+        .bubbles span{
+            width: 4px;
+            height: 4px;
+        }
+        @keyframes animate_bubbles{
+            0%{
+                top: calc(100% + 6vw);
+                transform: scale(0.8);
+            }
+            100%{
+                transform: scale(0.8);
+                top: -50px;
+            }
+        }
+     }
+
+    </style>
+
+<!-- CSS files -->
+<link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+
+
+
+    <!-- Heading Section Starts Here -->
+    <header class="header ">
+        
+        <div class="heading">
+ 
+            <div class="heading_intro">
+                <span class="intro_image">Port<font>folio.</font></span>
+                <span class="a">&#x2133&#119970</span>
+            </div>
+    
+            <div class="heading_bar">
+                <nav id="nav_bar">
+                    <a href="#my_info" class="nav_link hover-underline-animation">Home</a>
+                    <a href="#about" class="nav_link hover-underline-animation">About</a>
+                    <a href="#Project" class="nav_link hover-underline-animation">Projects</a>
+                    <a href="#Skills" class="nav_link hover-underline-animation">Skills</a>
+                    <a href="#Experience" class="nav_link hover-underline-animation">Experience</a>
+                    <a href="#Contact" class="nav_link hover-underline-animation">Contact</a>
+                </nav>
+            </div>
+
+
+            <div class="menu_bar">
+    
+                <span class="mobile_menu">
+                   <img name="menu-outline" src="./Images/menu.png" class="menu_icon"/>
+                   <img name="close-outline" src ="./Images/x-icon.png" class="menu_icon">
+                </span>
+                
+            </div>
+
+        </div>
+
+        <nav class="hidden_navbar">
+
+            <div class="second_nav">
+                <span><a href="#my_info" class="nav_link hover-underline-animation">Home</a></span>
+                <span><a href="#about" class="nav_link hover-underline-animation">About</a></span>
+                <span><a href="#Project" class="nav_link hover-underline-animation">Projects</a></span>
+                <span><a href="#Skills" class="nav_link hover-underline-animation">Skills</a></span>
+                <span><a href="#Experience" class="nav_link hover-underline-animation">Experience</a></span>
+                <span><a href="#Contact" class="nav_link hover-underline-animation">Contact</a></span>
+            </div>
+            
+        </nav>
+
+    </header>
+   <!-- Heading Section ends Here -->
+
+
+
+
+    <!-- Home Section Starts here -->
+    <section id="my_info">
+
+
+        <div class="container">
+            <div class="bubbles">
+                
+                <span style="--i:11"></span>
+                <span style="--i:17"></span>
+                <span style="--i:29"></span>
+                <span style="--i:1"></span>
+                <span style="--i:3"></span>
+                <span style="--i:7"></span>
+                <span style="--i:21"></span>
+                <span style="--i:13"></span>
+                <span style="--i:19"></span>
+                <span style="--i:16"></span>
+                <span style="--i:18"></span>
+                <span style="--i:23"></span>
+                <span style="--i:22"></span>
+                <span style="--i:32"></span>
+                <span style="--i:15"></span>
+                <span style="--i:14"></span>
+                <span style="--i:17"></span>
+                <span style="--i:27"></span>
+                <span style="--i:36"></span>
+                <span style="--i:38"></span>
+                <span style="--i:59"></span>
+                <span style="--i:12"></span>
+                <span style="--i:11"></span>
+                <span style="--i:1"></span>
+                <span style="--i:11"></span>
+                <span style="--i:19"></span>
+                <span style="--i:16"></span>
+                <span style="--i:11"></span>
+                <span style="--i:41"></span>
+                <span style="--i:17"></span>
+                <span style="--i:20"></span>
+                <span style="--i:10"></span>
+                <span style="--i:6"></span>
+                <span style="--i:18"></span>
+                <span style="--i:63"></span>
+                <span style="--i:11"></span>
+                <span style="--i:4"></span>
+                <span style="--i:32"></span>
+                <span style="--i:42"></span>
+                <span style="--i:27"></span>
+                <span style="--i:9"></span>
+                <span style="--i:12"></span>
+                <span style="--i:19"></span>
+                <span style="--i:11"></span>
+            </div>
+        </div>
+
+
+        <div class="my_intro">
+            <div class="type">
+                <p class="p">Hello, This is <span class="typed-text"></span><span class="TypeCursor">&nbsp;</span></p>
+            </div>
+          
+            <div class="my_name">
+                <h1 class="continuous_color_change">Gahinath Madake</h1>
+            </div>
+
+            <p class="pr">
+                I like developing ideas into Attractive, practical websites that precisely 
+                and imaginatively bring digital experiences to life.
+            </p>
+
+            <div class="about_btn">
+                <button onclick="location.href='#about'">More about me</button>
+            </div>
+        </div>
+
+        <div class="my_self" align="center">
+            <div class="my_photo">
+                <span></span>
+                <span></span>
+                <div>
+                    <img src="./Images/My personal/Me SY.png">
+                </div>
+            </div>
+            
+            <div class="media">
+                <ul>
+                    <li>
+                        <span>
+                            <a href="https://www.linkedin.com/in/gahinath-madake-925725265" target="_blank"><img src="./Images/Social media Icon/Linked-In.png"></a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <a href="https://github.com/GahinathMadake" target="_blank"><img src="./Images/Social media Icon/Github.png"></a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <a href="https://instagram.com/gahinath77?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img src="./Images/Social media Icon/insta.png"></a> 
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <a href="https://www.codechef.com/users/gahinathmadake" target="_blank"><img src="./Images/Social media Icon/Codechef.png"></a> 
+                        </span>
+                    </li>          
+                </ul>    
+            </div>
+        </div>
+
+    </section>
+    <!-- Home Section ends here -->
+
+
+
+
+
+
+    <!-- About section starts here -->
+     <section id="about">
+
+        <div class="head">
+            <div>
+                <span class="first">About</span>
+                <span class="second">Me</span>
+            </div>
+        </div>
+
+        <section id="about_my_self">
+            <div id="my_self">
+                <div class="my_photo">
+                    <img src="./Images/My personal/My self.jpg">
+                </div>
+                <div class="about_short">
+                    <h2>Gahinath Madake</h2>
+                    <p>
+                        Hey this is Gahinath Madake,<br/> for whom his family is Everything, one who likes to push
+                        the limits of their hard work for the sake of their family and friends. In addition,
+                        I am a dedicated coder and I have a strong desire to develop exceptional digital experiences.
+                    </p>
+                </div>
+            </div>
+    
+            <section id="ab_dt">
+                <div class="about_detail">
+                    <p>
+                        Nineteenth years ago, I came in this beautiful world, blessed with the presence
+                        of a kind-hearted and joyous family. These Memorable years passed happily with
+                        small family in beautiful village named Khandvi  with lots of fun-filled moments
+                        and challenges that have shaped my growth and personality.<br><br>
+        
+                        Moreover, the presence of Encouraging and Trustworthy best friends has added an extra sparkle
+                        to this already spectacular journey. These adventure-filled days spent with my besties have
+                        ignited an unstoppable spirit within me. I have discovered the true meaning of friendship and
+                        the power it holds. Their presence has been a constant reminder that I am not alone in this vast
+                        world, and together we can overcome any obstacle that comes our way.
+        
+                    </p>
+                </div>
+            </section>
+        </section>
+
+
+
+        <!-- <section id="my_edu">
+            <div>
+                
+            </div>
+        </section> -->
+
+
+        <section id="my_hobbies">
+            
+            <div class="skill_division">
+                <div class="sub_head">
+                    <h2>My Hobbies</h2>
+                </div>
+
+                <section class="outer_hobby">
+                    
+                    <div class="my_hobby">
+                        <div class="hobby_img">
+                            <img src="./Images/Hobbies/Competative Programing.png">
+                        </div>
+                        <div class="content_hobby">
+                            <p>Competitive Programming</p>
+                        </div>
+                    </div>
+
+                    <div class="my_hobby">
+                        <div class="hobby_img">
+                            <img src="./Images/Hobbies/Web development.png">
+                        </div>
+                        <div class="content_hobby">
+                            <p>Web Development</p>
+                        </div>
+                    </div>
+
+
+                    <div class="my_hobby">
+                        <div class="hobby_img">
+                            <img src="./Images/Hobbies/Listening Music.png">
+                        </div>
+                        <div class="content_hobby">
+                            <p>Listening Music</p>
+                        </div>
+                    </div>
+
+
+                    <div class="my_hobby">
+                        <div class="hobby_img">
+                            <img src="./Images/Hobbies/Travelling.png">
+                        </div>
+                        <div class="content_hobby">
+                            <p>travelling</p>
+                        </div>
+                    </div>
+
+                    <div class="my_hobby">
+                        <div class="hobby_img">
+                            <img src="./Images/Hobbies/Cycling.png">
+                        </div>
+                        <div class="content_hobby">
+                            <p>Cycling</p>
+                        </div>
+                    </div>
+
+                    <div class="my_hobby">
+                        <div class="hobby_img">
+                            <img src="./Images/Hobbies/Swimming.png">
+                        </div>
+                        <div class="content_hobby">
+                            <p>Swimming</p>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+
+        </section>
+
+
+
+    </section>
+    <!-- About section ends here -->
+    
+    
+    
+    
+    
+    
+    <!-- Project section starts here -->
+    <section id="Project">
+        <div class="head">
+            <div>
+                <span class="first">My</span>
+                <span class="second">Creations</span>
+            </div>
+        </div>
+
+        <section id="heading_of_project">
+            <div class="project_para" align="center">
+                <p>
+                    Welcome to My Projects, a place for inspiration and innovation to flourish.
+                    I'm thrilled to give you a peek into my world of endeavors and the passion that motivates me to move on.
+                </p>
+            </div>
+        </section>
+
+    
+    
+    
+        <section class="Web_Projects">
+    
+            <div class="web_heading" align="center">
+                <h2>Web Development</h2>
+            </div>
+    
+    
+    
+            <div class="web_para" align="center">
+                <p>
+                    Welcome to the fascinating field of web development,
+                    where the blending of creativity and technology results
+                    in exciting online experiences. Look through my collection of
+                    creative web applications and tastefully built websites.
+        
+                </p>
+            </div>
+    
+    
+            <section class="project_section">
+
+                <div>
+                    <div class="border_box">
+                        <div class="first_border"></div>
+                        <div class="second_border"></div>
+        
+                        <div class="inner_box">
+                            <img src="./Images/Projects/My Portfolio.png">
+    
+                            <div class="web_Content">
+                                <h1>My Portfolio</h1>
+                                <p>Gahinath Madake</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="button_link">
+                        <div class="pink_btn">
+                            <a href="/" target="_blank">
+                                <span>Know More</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div>
+                    <div class="border_box">
+                        <div class="first_border"></div>
+                        <div class="second_border"></div>
+        
+                        <div class="inner_box">
+                            <img src="./Images/Projects/Career Path.png">
+    
+                            <div class="web_Content">
+                                <h1>Career Path Using AI</h1>
+                                <p>UI for AI model</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="button_link">
+                        <div class="pink_btn">
+                            <a href="https://gahinathmadake.github.io/CareerPathUsingAI/" target="_blank">
+                                <span>Know More</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="border_box">
+                        <div class="first_border"></div>
+                        <div class="second_border"></div>
+        
+                        <div class="inner_box">
+                            <img src="./Images/Projects/Cloud.png">
+    
+                            <div class="web_Content">
+                                <h1>Cloud Project</h1>
+                                <p>Impact of Cloud Computing on Agriculture</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="button_link">
+                        <div class="pink_btn">
+                            <a href="#" target="_blank">
+                                <span>Know More</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div>
+                    <div class="border_box">
+                        <div class="first_border"></div>
+                        <div class="second_border"></div>
+        
+                        <div class="inner_box">
+                            <img src="./Images/Projects/CodeChef-Hiring.png">
+    
+                            <div class="web_Content">
+                                <h1>CodeChef-Hiring</h1>
+                                <p>Codechef Coding Club MITAOE</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="button_link">
+                        <div class="pink_btn">
+                            <a href="https://gahinathmadake.github.io/Codechef-Hiring.github.io/" target="_blank">
+                                <span>Know More</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+            </section>
+    
+        </section>
+
+
+    
+        <section class="Program_project">
+            <div class="heading_program" align="center">
+                <h2>Programming Languages</h2>
+            </div>
+    
+            <div class="program_para" align="center">
+                <p>
+                    The programming languages employed to boost the power of the modern 
+                    environment. Investigate a few of the projects below to see how 
+                    technology may be applied to create useful and meaningful applications. 
+    
+                </p>
+            </div>
+    
+            <section class="Project">
+                
+                <div class="my_program_project">
+                    <div class="program_content animated_background_shadow">
+                        <div class="prgm_img"><img src="./Images/Projects/Hotel Management.png"></div>
+                        <div class="prg_con">
+                            <h2>Hotel Management | Nano Project</h2>
+                            <ul>
+                                <li>Developed a software using C language for restaurants.</li>
+                                <li>Enhance customers' experience by providing menu and bill
+                                    generation features.</li>
+                                <li>Allow for the addition of more items to the menu. 
+                                    Improve day-to- day operations for restaurant management.</li>
+                                <li>Calculations of Total Income of Days, month accordingly.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="my_program_project">
+                    <div class="program_content animated_background_shadow">
+                        <div class="prgm_img"><img src="./Images/Projects/Smart Helmet Detector.png"></div>
+                        <div class="prg_con">
+                            <h2>Smart Helmet Detector System | Prototype Mini Project</h2>
+                            <ul>
+                                <li>Use IoT and a camera to create a helmet detection system.</li>
+                                <li>Detect whether a person is wearing a helmet or not.</li>
+                                <li>Use a green light indicator if a helmet is detected, and a red light if not.</li>
+                                <li>mprove safety for individuals by ensuring that they wear helmets while riding.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+    
+        </section>
+
+    </section>
+    <!-- Project section ends here -->
+
+
+
+
+
+    <!-- Skills section starts -->
+    <section id="Skills">
+        <div class="head">
+            <div>
+                <span class="first">My</span>
+                <span class="second">Skills</span>
+            </div>
+        </div>
+
+        <div class="box_skill">
+            <div class="skill_outer">
+                
+                <div class="web_skills">
+                    <div class="skill_heading">
+                        <H2>Web Development</H2>
+                    </div>
+
+                    <section>
+
+                        <div class="skill_dev">
+                            <h2>HTML</h2>
+                            <div class="progress_prctg">
+                                <div class="prctg_skill html"><span>90%</span></div>
+                            </div>
+                        </div>
+    
+                        <div class="skill_dev">
+                            <h2>CSS</h2>
+                            <div class="progress_prctg">
+                                <div class="prctg_skill css"><span>80%</span></div>
+                            </div>
+                        </div>
+    
+                        <div class="skill_dev">
+                            <h2>JavaScript</h2>
+                            <div class="progress_prctg">
+                                <div class="prctg_skill javascript"><span>40%</span></div>
+                            </div>
+                        </div>
+
+                    </section>
+
+                </div>
+
+                <div class="Program_skills">
+                    <div class="skill_heading">
+                        <H2>Programming Languages</H2>
+                    </div>
+
+                    <section class="prgm_outer">
+
+                        <div class="outer_cicle c">
+                            <div class="inner_circle">
+                                <div>
+                                    <h1 class="continuous_color_change">75<span>%</span></h1>
+                                    <h2>C</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer_cicle cpp">
+                            <div class="inner_circle" >
+                                <div>
+                                    <h1 class="continuous_color_change">80<span>%</span></h1>
+                                    <h2>C++</h2>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="outer_cicle java">
+                            <div class="inner_circle" >
+                                <div>
+                                    <h1 class="continuous_color_change">35<span>%</span></h1>
+                                    <h2>Java</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="outer_cicle python">
+                            <div class="inner_circle" >
+                                <div>
+                                    <h1 class="continuous_color_change">40<span>%</span></h1>
+                                    <h2>Python</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Skills section ends -->
+
+
+
+
+
+    <!-- Experiance section starts -->
+    <section id="Experience">
+        <div class="head">
+            <div>
+                <span class="first">My</span>
+                <span class="second">Experience</span>
+            </div>
+        </div>
+
+        <div class="outer_exp">
+            <div class="my_exp">
+
+
+                <div class="expcs">
+                    <div class="exp_img">
+                        <div class="exp_head_img">
+                            <h2>Teaching</h2>
+                        </div>
+                        <img src="./Images/Experience/Teaching.jpg">
+                    </div>
+
+                    <div class="exp_cont">
+                        <h2>Teaching</h2>
+                        
+                        <div class="experience_content">
+                            <h1>C Language Course | FY Student MITAOE</h1>
+                            <p>
+                                Teaching is a noble profession that shapes the minds and futures of 
+                                generations to come. It is a delicate art of imparting knowledge, 
+                                encouraging curiosity, and igniting a love for learning.
+                                Teaching is the finest approach to learn an concept on your own. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="expcs">
+                    <div class="exp_img">
+                        <div class="exp_head_img">
+                            <h2>Web Development</h2>
+                        </div>
+                        <img src="./Images/Experience/QuantEM Edutech.png"> -->
+                    </div>
+
+                    <div class="exp_cont">
+                        <h2>Intern</h2>
+                        
+                        <div class="experience_content">
+                            <h1>Web Development Intern | QuantEM Edutech</h1>
+                            <p>
+                                Quantem JEE Academy,<br> is a well-established academy for JEE & NEET
+                                coaching and earned the trust of thousands of students across country till now.
+                                <br><br>
+                                This Web development internship has given me insight into a vibrant industry of
+                                web development where creativity and technology collide.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="expcs">
+                    <div class="exp_img">
+                        <div class="exp_head_img">
+                            <h2>Coding Club</h2>
+                        </div>
+                        <img src="./Images/Experience/Codechef 1.jpg"> -->
+                    </div>
+
+                    <div class="exp_cont">
+                        <h2>Club</h2>
+                        
+                        <div class="experience_content">
+                            <h1>CODECHEF &#60Chapter&#62 | MITAOE </h1>
+                            <p>
+                                Creation of a variety of platforms and websites for the club.
+                                Organising various competitions and Events, promoting the 
+                                event and ensuring that it is successfully carried out.
+                                Helping students find their way by providing insightful Guidance and Teaching lessons.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- Experiance section ends -->
+
+
+
+
+
+    <!-- Contact section starts here -->
+    <section id="Contact">
+
+
+      <div class="contact_content">
+
+        <div class="head">
+            <div>
+                <span class="first">Contact</span>
+                <span class="second">Me</span>
+            </div>
+        </div>
+
+        <div class="contact_box">
+            
+            <div id="formbox">
+                <div class="box_info social_heading">
+                    <p id="p">Connect With me on Various Platforms</p>
+    
+                    <div class="media">
+                        <ul>
+                            <li>
+                                <span>
+                                    <a href="https://www.linkedin.com/in/gahinath-madake-925725265" target="_blank"><img src="./Images/Social media Icon/Linked-In.png"></a>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <a href="https://github.com/GahinathMadake" target="_blank"><img src="./Images/Social media Icon/Github.png"></a>
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <a href="https://instagram.com/gahinath77?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img src="./Images/Social media Icon/insta.png"></a> 
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <a href="mailto:gahinathmadake@gmail.com" target="_blank"><img src="./Images/Social media Icon/Email.png"></a> 
+                                </span>
+                            </li>          
+                        </ul>    
+                    </div>
+                </div>
+    
+                <div class="box_info form_outer">
+                    <div class="form_head_div">
+                        <p class="form_heading">Having concerns about my portfolio?</p>
+                        <p class="form_about">Please feel free to get in touch with me, if you have any questions about my portfolio or about me.</p>
+                    </div>
+                    <div class="form_ct">
+                        <h2>Contact Form</h2>
+                        <form>
+                            <div class="outer_input">
+                                <input type="text" class="form_input button" placeholder="Full Name">
+                            </div>
+
+                            <div class="outer_input">
+                                <input type="text" class="form_input button" placeholder="Phone Number">
+                            </div>
+
+                            <div class="outer_input_full">
+                                <input type="text" class="form_india_email button" placeholder="Email Address">
+                            </div>
+    
+                            <div class="outer_input_full">
+                                <textarea class="textarea_form button" placeholder="Your Message" id="" cols="30" rows="10"></textarea>
+                            </div>
+
+                            <div class="outer_input_full">
+                                <input type="submit" class="submit" placeholder="Email Address">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+      </div>
+
+
+      
+    </section>
+    <!-- Contact section ends here -->
+
+
+
+
+    <!-- Js files -->
+    <script src="index.js"></script>
+</body>
+</html>
